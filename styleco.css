@@ -207,10 +207,15 @@ footer {
 }
 
 .todos-comentarios {
+    display: grid;
     grid-template-columns: 1fr;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+.comentarios-content {
+    display: grid;
+    grid-template-columns: 1fr;
 
 }
