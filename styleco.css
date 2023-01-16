@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Explora&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: #806000;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+    
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .5s;
+    font-family: 'Dancing Script', cursive;
+}
+
+#logo {
+    width: 200px;
+    height: 90px;
+}
+
+.todos-comentarios {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+
+
+.comentarios-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.comentario {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    border: solid black 3px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.teste {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+    
+    
+    
+    span {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+p {
+    background-color: white;
+}
+
+.comentario2 {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    border: solid black 3px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 50px;
+}
+
+
+.teste2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.comentario3 {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    border: solid black 3px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 50px;
+}
+
+
+.teste3 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #806000;
+    
+}
+
+.spanf {
+    font-family: 'Dancing Script', cursive ;
+    font-size: 21px;
+    background-color: #806000;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+    display: none;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.todos-comentarios {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+}

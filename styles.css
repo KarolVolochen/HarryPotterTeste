@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Explora&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: #806000;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+nav {
+    width: 60%;
+}
+    
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between; 
+}
+
+li {
+    list-style: none;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .5s;
+    font-family: 'Dancing Script', cursive;
+}
+
+#logo {
+    width: 200px;
+    height: 90px;
+}
+
+#Banner {
+    background-image: url('https://anotabahia.com/wp-content/uploads/2021/11/anotabahia-harry-potter-e-a-pedra-filosofal-3d-vai-estrear-nos-cinemas-de-salvador-captura-de-tela-2021-11-17-as-15.11.39.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+#trailer-container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}   
+
+.content {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailer {
+    width: 50%;
+}
+
+#Sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.description {
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    width: 70%;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    background-color: #660000;
+    color: beige;
+    padding: 10px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: bisque;
+    color: #660000;
+}
+
+.actor-card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: aliceblue;
+    font-size: 21px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.card:hover {
+   transform: scale(1.1);
+}
+
+.banner-1 {
+    background-image: url('https://4.bp.blogspot.com/-p6o5nZmqamo/WcWB6Y8IR4I/AAAAAAAAwQ0/cS4M-kpxBIk5hxPH_lz_H9BaeCdkO9x7gCLcBGAs/s1600/Snitch_WB_F1_HarryPotterHoldingTheSnitch_Still_100615_Land.jpg');
+}
+
+.banner-2 {
+    background-image: url('https://s.yimg.com/ny/api/res/1.2/FGBqpTubxYzxLldbDokr3A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTk2MA--/https://media.zenfs.com/en-US/homerun/time_72/5e0067c1f7af3eff27b90f90ecb85b3d');
+}
+
+.banner-3 {
+    background-image: url('https://2.bp.blogspot.com/-dlPAJc_dqfw/Vrdlo3Gf2aI/AAAAAAAABwI/8TJTulSA9SE/s320/Rupert%2BGrint%2Bem%2Ba%2BPedra%2BFilosofal.jpg');
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    font-family: 'Dancing Script', cursive ;
+    font-size: 21px;
+}
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+    display: none;
+}
+
+    #Banner {
+        background-position: 50%;
+    }
+
+    #trailer-container {
+        width: 100%;
+        height: 400px;
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trailer {
+        width: 100%;
+    }
+
+    .Sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+}
