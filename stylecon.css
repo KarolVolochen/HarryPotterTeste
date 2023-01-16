@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Explora&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: #806000;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+nav {
+    width: 60%;
+
+}
+    
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between; 
+}
+
+li {
+    list-style: none;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .5s;
+    font-family: 'Dancing Script', cursive;
+}
+
+#logo {
+    width: 200px;
+    height: 90px;
+}
+
+#Banner {
+    background-image: url('https://static1.purebreak.com.br/articles/3/97/47/3/@/385290--harry-potter-10-itens-que-todo-fa-pre-amp_article_image-1.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 400px;
+    background-color: #806000;
+}
+
+form {
+    background-color: #806000;
+    font-size: 40px;
+    font-family:'Dancing Script', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 400px;
+    margin: auto;
+    
+}
+
+input {
+    background-color: white;
+    width: 400px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+textarea {
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+span {
+    font-family: 'Dancing Script', cursive ;
+    font-size: 21px;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px) {
+
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+    display: none;
+}
+
+  #banner {
+    width: 50%;
+  }
+}
