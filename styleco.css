@@ -28,7 +28,7 @@ ul{
 
 li {
     list-style: none;
-    color: black;
+    color: white;
     font-size: 30px;
     cursor: pointer;
     transition: .5s;
@@ -75,7 +75,7 @@ li {
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    font-family: 'Dancing Script', cursive;
+    margin-left: 50px;
 }
 
 
@@ -84,10 +84,8 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: 'Courier New', Courier, monospace;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
     margin-left: 10px;
 }
     
@@ -97,6 +95,8 @@ li {
     background-color: white;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -117,7 +117,6 @@ p {
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    font-family: 'Dancing Script', cursive;
     margin-left: 50px;
 }
 
@@ -127,10 +126,8 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: 'Courier New', Courier, monospace;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
     margin-left: 10px;
 }
 
@@ -147,7 +144,6 @@ p {
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    font-family: 'Dancing Script', cursive;
     margin-left: 50px;
 }
 
@@ -157,10 +153,8 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: 'Courier New', Courier, monospace;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
     margin-left: 10px;
 }
 
@@ -176,7 +170,6 @@ footer {
 }
 
 .spanf {
-    font-family: 'Dancing Script', cursive ;
     font-size: 21px;
     background-color: #806000;
 }
